@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+}
+#result-container {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#precio{
+    margin-top: 10px;
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#ingredientes{
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+}
+
+@media (max-width: 1900px){
+    .card img{
+        width: 30%;
+    }
+}
+
+@media (max-width: 1500px){
+    .card img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px){
+    .card img{
+        width: 70%;
+    }
+}
